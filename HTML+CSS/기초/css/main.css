@@ -48,6 +48,7 @@ strong{
     height: 400px;
     background: cornflowerblue;
     float: left;
+/*    display: inline-block*/
 }
 
 
@@ -56,6 +57,7 @@ strong{
     height: 400px;
     background: coral;
     float: left;
+/*    display: inline-block*/
 }
 
 .footer{
@@ -64,3 +66,4 @@ strong{
     background-color: grey;
     clear: both;
 }
+

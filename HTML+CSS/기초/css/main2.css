@@ -1,0 +1,83 @@
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+.blog-name {
+    float: left;
+}
+
+/*
+.navbar>li {
+    display: inline-block;
+}
+*/
+
+.navbar li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    /* 방문 후 보라색 되는거 제거도 가능 그건 검색~~*/
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg) /*, url() 배경 겹치기 가능*/;
+    background-size: cover; /* 니가 알아서 공간 꽉 채워*/
+                    /* contain : 배경 짤리게 하지말아줘 */
+    background-repeat: no-repeat;
+    background-position: center; /* 배경 위치 조정*/
+/*    background-attachment: fixed;  스크롤시 배경 위치 조정 가능*/
+    filter: brightness(70%) saturate(80%); /*박스 보정입히기, 글씨도 같이 입혀진다...*/
+    
+    padding: 1px; /* margin collapse 때문에 테두리 안붙게 하려고*/
+    
+    text-align: center;
+    
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px; /*margin collapse 현상...? bug? -> 싫으면 테두리 안붙게하면 된다.*/
+    text-align: center
+}
+
+div > p {
+    color: white;
+}
+
+.main-background > button {
+    border-radius: 15%;
+    
+}

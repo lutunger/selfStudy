@@ -1,0 +1,70 @@
+
+.container {
+    width: 900px;
+    height: 200px;
+}
+
+.con-left {
+    width: 65%;
+    height: 100%;
+
+    float: left;
+}
+
+.con-right {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+
+
+.right-image {
+    width: 200px;
+}
+
+.image1 {
+    width: 50px;
+}
+
+.left-top-left {
+    width: 50px;
+    float: left;
+}
+
+.time {
+    font-size: 12px;
+    color: darkslategray;
+}
+
+.left-top-right {
+
+    margin-left: 60px;
+}
+
+.left-mid {
+    clear: both;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.content {
+    color: darkslategray;
+}
+
+.space {
+    height: 10px;
+}
+
+.img3 {
+    width: 30px;
+    float: right;
+}
+
+.mid-space {
+    width: 3%;
+    height: 100%;
+    float: left;
+}
