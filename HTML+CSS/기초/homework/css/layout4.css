@@ -1,0 +1,82 @@
+body{
+    background-color: dimgrey;
+}
+
+.main-content{
+    width: 400px;
+    height: 500px;
+
+    margin: auto;
+    margin-top: 100px;
+
+    box-sizing: border-box;
+
+    padding: 20px 40px;
+
+    background-color: white;
+}
+
+input[type="text"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 0px;
+    width: 95%;
+}
+
+input[type="email"] {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 0px;
+    width: 95%;
+}
+
+
+
+
+
+.first-name{
+    float: left;
+    width: 40%;
+}
+
+.last-name{
+    float: left;
+    width: 40%;
+}
+
+.name-space{
+    float: left;
+    width: 17%;
+    height: 20px;
+    
+}
+
+.message{
+    clear: both;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.checkbox{
+    float:left;
+}
+
+button{
+    display: block;
+    float:right;
+    background-color: orange;
+    color: white;
+    border: 0px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+
