@@ -1,0 +1,38 @@
+
+.nav-contents{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 30px;
+    background-color: gray;
+
+    box-sizing: border-box;
+    padding: 30px;
+
+    text-align: center;
+    
+}
+
+.nav-contents div{
+    box-sizing: border-box;
+    width: 25%;
+}
+
+
+
+@media screen and (max-width : 1200px) {
+    .nav-contents{
+        flex-wrap: wrap;
+    }
+
+    .nav-contents div{
+        width:50%
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .nav-contents div{
+        width: 100%;
+    }
+    
+}
