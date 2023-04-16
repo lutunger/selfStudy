@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/homework4.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert">알림창임 
+        <button onclick="closeAlert()">닫기</button></div>
+    <button onclick="openAlert()">버튼</button>
+
+    <script>
+        function openAlert(){
+            document.querySelector('#alert').style.display = 'block';
+        }
+        
+        function closeAlert(){
+            document.querySelector('#alert').style.display = 'none';
+        }
+
+        // 아 이것도 open, close는 있는게 있어서 거기서 호출이 안되는듯...
+    </script>
+
+</body>
+</html>

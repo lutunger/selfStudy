@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/homework5-2.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert">
+        <p id="alertText">알림창</p> 
+        <button onclick="changeAlert('none', '알림창')">닫기</button></div>
+    <button onclick="changeAlert('block', '아이디를 입력해주세요')">버튼1</button>
+    <button onclick="changeAlert('block', '비밀번호를 입력해주세요')">버튼2</button>
+
+    <script>
+
+        function changeAlert(disP, innerT){
+            document.querySelector('#alertText').innerText = innerT;
+            document.querySelector('#alert').style.display = disP;
+        }
+
+
+        // function openAlert(){
+            
+        //     document.getElementById('alert' + num).style.display = 'block';
+        // }
+        
+        
+        // function closeAlert(){
+        //     document.getElementById('alert').style.display = 'none';
+        // }
+        
+        
+        // function openAlert2(){
+        //     document.getElementById('alert').style.display = 'block';
+
+        // }
+
+        // function openAlertAndChange(){
+        //     document.getElementById('alert').style.display = 'block';
+        //     document.getElementById('alert').style.display = 'block';
+
+        // }
+        
+
+        // 아 이것도 open, close는 있는게 있어서 거기서 호출이 안되는듯...
+    </script>
+
+</body>
+</html>

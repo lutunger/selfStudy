@@ -1,0 +1,17 @@
+
+.alert-box {
+    background-color: skyblue;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.alert-box p {
+    display: inline-block;
+}
+
+#alert{
+    display: none;
+}
+
